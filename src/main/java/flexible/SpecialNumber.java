@@ -5,6 +5,13 @@ import inflexible.OutOfRange;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+
+/**
+ * Przepraszam jeżeli zadanie nie zostało wykonane tak jak powinno.
+ * Niestety jego treść była dla mnie nie do końca zrozumiała.
+ * W odpowiednio nazwanych packageach znajdują się dwie wersje kodu (jedna z nich to szybko napisana klasa a druga to rozbicie problemu na klasy utowrzone na wzór na wzór innych
+ * np.Integer). Proszę o ewentualna informacje zwrotną dotyczącą błędów.
+ */
 public abstract class SpecialNumber extends Number {
 
     /**
