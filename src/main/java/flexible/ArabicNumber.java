@@ -26,6 +26,10 @@ public class ArabicNumber extends SpecialNumber {
         return romanValue(value);
     }
 
+    /**
+     * Return value field of number object.
+     * @return
+     */
     public Integer getValue() {
         return value;
     }

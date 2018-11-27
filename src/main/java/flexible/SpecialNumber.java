@@ -40,6 +40,12 @@ public abstract class SpecialNumber extends Number {
         romanPossibilities.put(1, "I");
     }
 
+    /**
+     * Converting arabic to roman number representation.
+     * @param arabicValue
+     * @return
+     * @throws OutOfRange
+     */
     protected static String romanValue(int arabicValue) throws OutOfRange {
         int value = arabicValue;
         if(value < MIN_ROMAN_VALUE || value > MAX_ROMAN_VALUE) throw new OutOfRange(OutOfRange.OUT_OF_RANGE_MESSAGE);
